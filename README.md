@@ -1,0 +1,3 @@
+# Express.js Route Handler Error
+
+This repository demonstrates a common error in Express.js route handlers: the lack of error handling when dealing with user input. The `bug.js` file contains code that is vulnerable to errors because it doesn't check if the `userId` parameter is a valid integer before attempting to find a user.  The `bugSolution.js` file provides a corrected version with robust error handling.
